@@ -1,0 +1,15 @@
+.hero {
+    position: relative;
+  }
+  .hero h3 {
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  
+  .hero h1 span {
+    color: #ff014f;
+  }
