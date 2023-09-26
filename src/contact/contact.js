@@ -116,4 +116,15 @@ const Contact = () => {
                     className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
                   />
                 </div>
+                <div className="input">
+                  <label className="text-sm text-gray-700">YOUR MESSAGE</label>
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    name="message"
+                    value={data.message}
+                    onChange={InputEvent}
+                    className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
+                  ></textarea>
+                </div>
                 
