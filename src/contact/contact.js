@@ -71,4 +71,18 @@ const Contact = () => {
             </div>
           </div>
 
-         
+          <div className="right box-shadow-md p-6">
+            <form onSubmit={formSubmit}>
+              <div className="space-y-4">
+                <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+                  <div className="input flex-1">
+                    <label className="text-sm text-gray-700">YOUR NAME</label>
+                    <input
+                      type="text"
+                      name="fullname"
+                      value={data.fullname}
+                      onChange={InputEvent}
+                      className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
+                    />
+                  </div>
+                 
