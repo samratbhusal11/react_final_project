@@ -35,3 +35,17 @@ const Contact = () => {
           <h4>CONTACT</h4>
           <h1 className="text-3xl font-semibold">Contact With Me</h1>
         </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="left">
+            <div className="box p-6 shadow-md">
+              <div className="img">
+                <img src={contact1} alt="Contact Person" />
+              </div>
+              <div className="details">
+                <h1 className="text-2xl font-semibold">Samrat Bhusal </h1>
+                <p>Chief Operating Officer</p>
+                <p className="text-gray-700">
+                  Available for freelancing, Website development under 2 days guranteed 
+                </p>
+              
