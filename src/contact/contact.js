@@ -96,4 +96,14 @@ const Contact = () => {
                     />
                   </div>
                 </div>
+                <div className="input">
+                  <label className="text-sm text-gray-700">EMAIL</label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={data.email}
+                    onChange={InputEvent}
+                    className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
+                  />
+                </div>
                 
