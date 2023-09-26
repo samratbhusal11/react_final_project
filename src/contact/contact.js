@@ -85,4 +85,15 @@ const Contact = () => {
                       className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
                     />
                   </div>
-                 
+                  <div className="input flex-1">
+                    <label className="text-sm text-gray-700">PHONE NUMBER</label>
+                    <input
+                      type="number"
+                      name="phone"
+                      value={data.phone}
+                      onChange={InputEvent}
+                      className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
+                    />
+                  </div>
+                </div>
+                
