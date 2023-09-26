@@ -127,4 +127,19 @@ const Contact = () => {
                     className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
                   ></textarea>
                 </div>
-                
+                <button
+                  className="btn-shadow bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md"
+                  type="submit"
+                >
+                  SEND MESSAGE <i className="fa fa-long-arrow-right ml-2"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+
