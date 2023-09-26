@@ -106,4 +106,14 @@ const Contact = () => {
                     className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
                   />
                 </div>
+                <div className="input">
+                  <label className="text-sm text-gray-700">SUBJECT</label>
+                  <input
+                    type="text"
+                    name="subject"
+                    value={data.subject}
+                    onChange={InputEvent}
+                    className="border py-2 px-3 w-full rounded-md focus:outline-none focus:border-blue-500"
+                  />
+                </div>
                 
