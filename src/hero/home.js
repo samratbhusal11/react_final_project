@@ -12,7 +12,19 @@ const Home = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               Hi, I'm <span className="text-pink-500">Samrat Bhusal</span>
             </h1>
-            
+            <h2 className="text-3xl md:text-4xl font-bold text-pink-500 mb-6">
+              a
+              <span className="typewriter ml-2">
+                <Typewriter
+                  words={[" Professional Coder.", " Developer."]}
+                  loop
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+             
             </div>
           </div>
         </div>
