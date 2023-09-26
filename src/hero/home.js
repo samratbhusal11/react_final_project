@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css"; // Import your CSS file for any additional styling
+import "./home.css"; 
 import hero from "./hero.jpg";
 import { Typewriter } from "react-simple-typewriter";
 
