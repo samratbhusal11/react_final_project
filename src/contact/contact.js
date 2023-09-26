@@ -48,4 +48,27 @@ const Contact = () => {
                 <p className="text-gray-700">
                   Available for freelancing, Website development under 2 days guranteed 
                 </p>
-              
+                <p className="mt-2 text-gray-700">
+                  Phone: +977 9849839669
+                  <br />
+                  Email: bhusalsamrat11@gmail.com
+                </p>
+                <div className="mt-4">
+                  <span className="text-gray-700">FIND WITH ME</span>
+                  <div className="button flex mt-2">
+                    <button className="btn-shadow mr-4">
+                      <i className="fab fa-facebook-f"></i>
+                    </button>
+                    <button className="btn-shadow mr-4">
+                      <i className="fab fa-instagram"></i>
+                    </button>
+                    <button className="btn-shadow">
+                      <i className="fab fa-twitter"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
