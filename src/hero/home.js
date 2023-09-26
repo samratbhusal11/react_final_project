@@ -24,7 +24,25 @@ const Home = () => {
                   deleteSpeed={50}
                   delaySpeed={1000}
                 />
-             
+              </span>
+            </h2>
+            <p className="text-gray-600 text-lg">
+              I use animation as a third dimension by which to simplify
+              experiences and guide through each and every interaction. I'm not
+              adding motion just to spruce things up, but doing it in ways that
+              enhance user experiences.
+            </p>
+            <div className="mt-8 space-x-4">
+              <button className="btn btn-secondary">View Portfolio</button>
+            </div>
+          </div>
+          <div className="md:w-1/2 mt-10 md:mt-0">
+            <div className="hero_img bg-gradient-to-tr from-gray-200 via-white to-white shadow-lg rounded-lg h-96 w-96 mx-auto">
+              <img
+                src={hero}
+                alt=""
+                className="w-full h-full object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>
