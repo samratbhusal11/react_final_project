@@ -5,6 +5,9 @@ import skill1 from "../pic/skill1.png"
 import skill2 from "../pic/skill2.png"
 import skill3 from "../pic/skill3.png"
 import { Typewriter } from "react-simple-typewriter"
+import {} from "react-icons/fa"
+
+
 
 const Home = () => {
   return (
@@ -32,8 +35,8 @@ const Home = () => {
                   <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
                   </button>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
+                  <button className='btn_shadow text-red'>
+                    <i class='fab fa-instagram '></i>
                   </button>
                   <button className='btn_shadow'>
                     <i class='fab fa-linkedin-in'></i>

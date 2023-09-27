@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <nav className={`w-full bg-black  top-0 left-0 right-0 z-10`}>
+    <nav className={`w-full bg-black top-0 left-0 right-0 z-10`}>
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -42,27 +42,25 @@ const Header = () => {
             <ul className="h-screen md:h-auto items-center justify-center md:flex">
 
               <li className="pb-7 text-x2 text-white py-2 px-10 text-center border-b-2 md:border-b-0 hover:bg-cyan-600 border-cyan-600 md:hover:text-cyan-600 md:hover:bg-transparent">
-                <a href="#resume" onClick={toggleMobileMenu}>
+                <a href="#resume" onClick={toggleMobileMenu} className="text-white">
                   Resume
                 </a>
               </li>
               <li className="pb-7 text-x2 text-white py-2 px-10 text-center border-b-2 md:border-b-0 hover:bg-cyan-600 border-cyan-600 md:hover:text-cyan-600 md:hover:bg-transparent">
-                <a href="#clients" onClick={toggleMobileMenu}>
-                  Clients
+                <a href="#portfolio" onClick={toggleMobileMenu} className="text-white">
+                  Portfolio
                 </a>
               </li>
               <li className="pb-7 text-x2 text-white py-2 px-10 text-center border-b-2 md:border-b-0 hover:bg-cyan-600 border-cyan-600 md:hover:text-cyan-600 md:hover:bg-transparent">
-                <a href="#blog" onClick={toggleMobileMenu}>
+                <a href="#blog" onClick={toggleMobileMenu} className="text-white">
                   Blog
                 </a>
               </li>
               <li className="pb-7 text-x2 text-white py-2 px-10 text-center border-b-2 md:border-b-0 hover:bg-cyan-600 border-cyan-600 md:hover:text-cyan-600 md:hover:bg-transparent">
-                <a href="#contact" onClick={toggleMobileMenu}>
-                  Contact
-                </a>
+                
               </li>
               <li className="pb-7 text-x2 text-white py-2 px-10 text-center border-b-2 md:border-b-0 hover:bg-cyan-600 border-cyan-600 md:hover:text-cyan-600 md:hover:bg-transparent">
-                <button className="home-btn">HIRE ME</button>
+                <a href="#contact" className="text-white">HIRE ME</a>
               </li>
             </ul>
           </div>
